@@ -1,0 +1,5 @@
+Uloz.to link decrypter is a simple Safari extension that makes the Uloz.to (ulozto.cz) website a little more usable. It works on ulozto.sk and zachowajto.pl sites too.
+
+This extension modifies item links on the search page so they have a standard _href_ attribute. Without this extension, the links have just some _data-icon_ attribute and no _href_. Upon clicking on a link, some JavaScript is triggered that looks up the _data-icon_ attribute in a dictionary, encoded URL is then returned, decoded and a redirect happens. This situation has many drawbacks and one of them is that it is not possible to pick a _Copy link to clipboard_ item from a context menu (right-click).
+
+Practical use can be that if a download manager is used, which watches the clipboard for URL’s, search results from the page can be simply added to the manager by using the _Copy link to clipboard_ context menu item.
